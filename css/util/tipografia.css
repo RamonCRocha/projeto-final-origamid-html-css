@@ -1,0 +1,81 @@
+/* Fonte Poppins */
+
+.font-1-pp {
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.font-1-p {
+  font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+
+.font-1-m,
+.font-1-m-n {
+  font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
+
+.font-1-m-n {
+  font-weight: 600;
+}
+
+.font-1-g {
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.font-1-gg {
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.font-1-ggg {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+/* Fonte Roboto */
+
+.font-2-pp {
+  font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+
+.font-2-p {
+  font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.font-2-m {
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.font-2-g,
+.font-2-g-n {
+  font: 400 1.5rem/1.5 "Roboto", sans-serif;
+}
+
+.font-2-g-n {
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+}
+
+.font-2-gg {
+  font: 500 2rem/1.25 "Roboto", sans-serif;
+}
+
+/* Responsivo */
+
+@media (max-width: 1200px) {
+  .font-1-ggg {
+    font-size: 3rem;
+  }
+  .font-2-g,
+  .font-2-g-n {
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-1-ggg {
+    font-size: 2rem;
+  }
+  .font-1-gg,
+  .font-2-gg {
+    font-size: 1.5rem;
+  }
+}
